@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import { FaHome, FaImage, FaPhoneAlt, FaBriefcase } from "react-icons/fa";  // Icons for Home, Gallery, Contact, Portfolio
-import { IoPersonCircle } from "react-icons/io5";  // Icon for User (Register)
-import { BsCalendarCheck } from "react-icons/bs";  // Icon for Booking
+import { FaHome, FaImage, FaPhoneAlt, FaBriefcase } from "react-icons/fa";
+import { IoPersonCircle } from "react-icons/io5"; 
+import { BsCalendarCheck } from "react-icons/bs";
 import Gallery from "./components/Gallery";
 import BookingForm from "./components/BookingForm";
 import RegistrationForm from "./components/RegistrationForm";

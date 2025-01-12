@@ -5,7 +5,13 @@ const cors = require("cors");
 
 const app = express();
 app.use(express.json());
-app.use(cors());
+app.use(cors(
+    {
+        origin: ["https://fashion-design-1whq.vercel.app"],
+        method: ["POST", "GET"],
+        credentials: true
+    }
+));
 
 // Correctly formatted MongoDB URI
 const mongoURI = "mongodb://localhost:27017/fashionTailorDB"; // For local MongoDB

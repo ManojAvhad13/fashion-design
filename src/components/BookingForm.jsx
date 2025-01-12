@@ -25,7 +25,7 @@ const BookingForm = () => {
         }
 
         try {
-            // Send data to backend
+            // Send data to backendddd
             const response = await axios.post("http://localhost:5000/api/bookings", formData);
 
             // Check response and set success message
